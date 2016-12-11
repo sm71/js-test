@@ -1,8 +1,10 @@
+/*js file*/
 $(function(){
-    var num1 = 500;
-    var num2 = 220;
-    var num3 = num1 * 3;
-    var num4 = num2+num3;
 
-    console.log(num4);
-})
+  test1 = 500;
+  test2 = 220;
+  test3 = test1*3;
+  test4 = test2+test3;
+  console.log(test4);
+
+})//end function

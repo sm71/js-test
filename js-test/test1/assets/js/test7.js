@@ -7,10 +7,12 @@ $(function(){
   var yLine;
   var items;
   var boxArr;
+  var scale;
 
   function init(){
     $("body").append("<div class='container'></div>");
     $container = $(".container");
+    scale = 100;
     xLine = Math.round($(window).width()/100);
     yLine = Math.round($(window).height()/100);
     items = xLine * yLine;
